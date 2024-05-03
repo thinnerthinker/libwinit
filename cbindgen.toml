@@ -46,7 +46,9 @@ usize_is_size_t = true
 
 [export]
 include = []
+[export]
 exclude = [
+    "Vec_u8",
     "winit_window_get_ns_view",
     "winit_window_ref_get_ns_view" ]
 # prefix = "CAPI_"
